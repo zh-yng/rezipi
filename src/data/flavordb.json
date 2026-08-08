@@ -1,0 +1,3119 @@
+{
+  "ingredients": [
+    {
+      "id": "ing_basil",
+      "name": "Basil",
+      "category": "Herb",
+      "compounds": [
+        "c_linalool",
+        "c_eugenol",
+        "c_estragole",
+        "c_cineole",
+        "c_pinene",
+        "c_myrcene"
+      ],
+      "description": "Sweet, aromatic herb with clove and anise notes",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_mint",
+      "name": "Spearmint",
+      "category": "Herb",
+      "compounds": [
+        "c_carvone",
+        "c_limonene",
+        "c_cineole",
+        "c_menthol",
+        "c_myrcene",
+        "c_linalool"
+      ],
+      "description": "Refreshing herbaceous leaves dominated by carvone",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_peppermint",
+      "name": "Peppermint",
+      "category": "Herb",
+      "compounds": [
+        "c_menthol",
+        "c_menthone",
+        "c_cineole",
+        "c_limonene",
+        "c_caryophyllene"
+      ],
+      "description": "Pungent cooling mint rich in menthol and menthone",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_rosemary",
+      "name": "Rosemary",
+      "category": "Herb",
+      "compounds": [
+        "c_cineole",
+        "c_pinene",
+        "c_camphor",
+        "c_borneol",
+        "c_myrcene",
+        "c_limonene"
+      ],
+      "description": "Woody pine-like herb rich in camphoraceous terpenes",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_thyme",
+      "name": "Thyme",
+      "category": "Herb",
+      "compounds": [
+        "c_thymol",
+        "c_carvacrol",
+        "c_cymene",
+        "c_linalool",
+        "c_pinene",
+        "c_cineole"
+      ],
+      "description": "Pungent, savory herb dominated by thymol and carvacrol",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_oregano",
+      "name": "Oregano",
+      "category": "Herb",
+      "compounds": [
+        "c_carvacrol",
+        "c_thymol",
+        "c_cymene",
+        "c_terpinene",
+        "c_caryophyllene"
+      ],
+      "description": "Warm, pungent Mediterranean herb rich in carvacrol",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_sage",
+      "name": "Sage",
+      "category": "Herb",
+      "compounds": [
+        "c_thujone",
+        "c_camphor",
+        "c_cineole",
+        "c_pinene",
+        "c_borneol"
+      ],
+      "description": "Savory, camphoraceous herb high in thujone and cineole",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_cilantro",
+      "name": "Cilantro",
+      "category": "Herb",
+      "compounds": [
+        "c_decanal",
+        "c_dodecanal",
+        "c_linalool",
+        "c_pinene",
+        "c_myrcene"
+      ],
+      "description": "Piquant citrusy herb rich in aliphatic aldehydes",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_parsley",
+      "name": "Parsley",
+      "category": "Herb",
+      "compounds": [
+        "c_myristicin",
+        "c_apiol",
+        "c_pinene",
+        "c_myrcene",
+        "c_limonene"
+      ],
+      "description": "Fresh green culinary herb containing myristicin and apiol",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_dill",
+      "name": "Dill",
+      "category": "Herb",
+      "compounds": [
+        "c_carvone",
+        "c_phellandrene",
+        "c_limonene",
+        "c_dill_ether"
+      ],
+      "description": "Anise-like feathery herb driven by dill ether and carvone",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_tarragon",
+      "name": "Tarragon",
+      "category": "Herb",
+      "compounds": [
+        "c_estragole",
+        "c_ocimene",
+        "c_phellandrene",
+        "c_anethole"
+      ],
+      "description": "Aniseed-scented herb rich in estragole",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_lemongrass",
+      "name": "Lemongrass",
+      "category": "Herb",
+      "compounds": [
+        "c_citral",
+        "c_myrcene",
+        "c_geraniol",
+        "c_limonene",
+        "c_linalool"
+      ],
+      "description": "Tropical citrusy stalk packed with citral and geraniol",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_bay_leaf",
+      "name": "Bay Leaf",
+      "category": "Herb",
+      "compounds": [
+        "c_cineole",
+        "c_eugenol",
+        "c_linalool",
+        "c_pinene",
+        "c_terpinyl_acetate"
+      ],
+      "description": "Aromatic woodsy leaf with eucalyptus and clove tones",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_lemon",
+      "name": "Lemon Peel",
+      "category": "Citrus",
+      "compounds": [
+        "c_limonene",
+        "c_citral",
+        "c_pinene",
+        "c_myrcene",
+        "c_linalool",
+        "c_geraniol"
+      ],
+      "description": "Zesty, bright citrus peel packed with limonene and citral",
+      "color": "amber"
+    },
+    {
+      "id": "ing_lime",
+      "name": "Lime Zest",
+      "category": "Citrus",
+      "compounds": [
+        "c_limonene",
+        "c_terpinene",
+        "c_citral",
+        "c_pinene",
+        "c_myrcene",
+        "c_bisabolene"
+      ],
+      "description": "Sharp, tart citrus zest with high terpinene content",
+      "color": "amber"
+    },
+    {
+      "id": "ing_orange",
+      "name": "Orange Peel",
+      "category": "Citrus",
+      "compounds": [
+        "c_limonene",
+        "c_myrcene",
+        "c_decanal",
+        "c_linalool",
+        "c_octanal",
+        "c_sinensal"
+      ],
+      "description": "Sweet, sunny citrus profile dominated by d-limonene",
+      "color": "amber"
+    },
+    {
+      "id": "ing_grapefruit",
+      "name": "Grapefruit",
+      "category": "Citrus",
+      "compounds": [
+        "c_limonene",
+        "c_nootkatone",
+        "c_myrcene",
+        "c_pinene",
+        "c_linalool"
+      ],
+      "description": "Bittersweet citrus characterized by nootkatone ketone",
+      "color": "amber"
+    },
+    {
+      "id": "ing_bergamot",
+      "name": "Bergamot",
+      "category": "Citrus",
+      "compounds": [
+        "c_linalyl_acetate",
+        "c_linalool",
+        "c_limonene",
+        "c_pinene",
+        "c_bergapten"
+      ],
+      "description": "Earl Grey citrus with sweet floral linalyl acetate notes",
+      "color": "amber"
+    },
+    {
+      "id": "ing_yuzu",
+      "name": "Yuzu",
+      "category": "Citrus",
+      "compounds": [
+        "c_yuzunone",
+        "c_limonene",
+        "c_myrcene",
+        "c_linalool",
+        "c_pinene",
+        "c_terpinene"
+      ],
+      "description": "Complex Asian citrus combining grapefruit, mandarin and floral tones",
+      "color": "amber"
+    },
+    {
+      "id": "ing_cinnamon",
+      "name": "Cinnamon",
+      "category": "Spice",
+      "compounds": [
+        "c_cinnamaldehyde",
+        "c_eugenol",
+        "c_linalool",
+        "c_caryophyllene",
+        "c_pinene"
+      ],
+      "description": "Warm, sweet bark spice dominated by cinnamaldehyde",
+      "color": "orange"
+    },
+    {
+      "id": "ing_clove",
+      "name": "Clove",
+      "category": "Spice",
+      "compounds": [
+        "c_eugenol",
+        "c_caryophyllene",
+        "c_eugenyl_acetate",
+        "c_humulene",
+        "c_linalool"
+      ],
+      "description": "Intense spicy dried flower bud rich in eugenol",
+      "color": "orange"
+    },
+    {
+      "id": "ing_black_pepper",
+      "name": "Black Pepper",
+      "category": "Spice",
+      "compounds": [
+        "c_piperine",
+        "c_caryophyllene",
+        "c_pinene",
+        "c_limonene",
+        "c_myrcene",
+        "c_sabinene"
+      ],
+      "description": "Piquant, woody dried berry with high terpene complexity",
+      "color": "orange"
+    },
+    {
+      "id": "ing_cardamom",
+      "name": "Cardamom",
+      "category": "Spice",
+      "compounds": [
+        "c_cineole",
+        "c_terpinyl_acetate",
+        "c_linalool",
+        "c_limonene",
+        "c_myrcene",
+        "c_geraniol"
+      ],
+      "description": "Eucalyptus-sweet pod spice packed with cineole and terpinyl acetate",
+      "color": "orange"
+    },
+    {
+      "id": "ing_ginger",
+      "name": "Ginger",
+      "category": "Spice",
+      "compounds": [
+        "c_gingerol",
+        "c_zingiberene",
+        "c_citral",
+        "c_camphene",
+        "c_cineole",
+        "c_linalool"
+      ],
+      "description": "Zesty, warming root with gingerol and sesquiterpenes",
+      "color": "orange"
+    },
+    {
+      "id": "ing_star_anise",
+      "name": "Star Anise",
+      "category": "Spice",
+      "compounds": [
+        "c_anethole",
+        "c_estragole",
+        "c_limonene",
+        "c_pinene",
+        "c_linalool"
+      ],
+      "description": "Sweet licorice spice rich in trans-anethole",
+      "color": "orange"
+    },
+    {
+      "id": "ing_nutmeg",
+      "name": "Nutmeg",
+      "category": "Spice",
+      "compounds": [
+        "c_myristicin",
+        "c_sabinene",
+        "c_pinene",
+        "c_safrole",
+        "c_eugenol"
+      ],
+      "description": "Warm, nutty seed spice with myristicin and sabinene",
+      "color": "orange"
+    },
+    {
+      "id": "ing_cumin",
+      "name": "Cumin",
+      "category": "Spice",
+      "compounds": [
+        "c_cuminaldehyde",
+        "c_cymene",
+        "c_terpinene",
+        "c_pinene"
+      ],
+      "description": "Earthy, warm seed spice dominated by cuminaldehyde",
+      "color": "orange"
+    },
+    {
+      "id": "ing_coriander_seed",
+      "name": "Coriander Seed",
+      "category": "Spice",
+      "compounds": [
+        "c_linalool",
+        "c_pinene",
+        "c_terpinene",
+        "c_cymene",
+        "c_camphor"
+      ],
+      "description": "Sweet citrusy dried seed rich in linalool",
+      "color": "orange"
+    },
+    {
+      "id": "ing_fennel_seed",
+      "name": "Fennel Seed",
+      "category": "Spice",
+      "compounds": [
+        "c_anethole",
+        "c_fenchone",
+        "c_estragole",
+        "c_limonene",
+        "c_pinene"
+      ],
+      "description": "Sweet licorice seed with anethole and fenchone",
+      "color": "orange"
+    },
+    {
+      "id": "ing_saffron",
+      "name": "Saffron",
+      "category": "Spice",
+      "compounds": [
+        "c_safranal",
+        "c_crocin",
+        "c_picrocrocin",
+        "c_isophorone"
+      ],
+      "description": "Honeyed metallic floral stigma threads packed with safranal",
+      "color": "orange"
+    },
+    {
+      "id": "ing_turmeric",
+      "name": "Turmeric",
+      "category": "Spice",
+      "compounds": [
+        "c_curcumin",
+        "c_turmerone",
+        "c_zingiberene",
+        "c_phellandrene"
+      ],
+      "description": "Earthy, vibrant golden rhizome with ar-turmerone",
+      "color": "orange"
+    },
+    {
+      "id": "ing_strawberry",
+      "name": "Strawberry",
+      "category": "Fruity",
+      "compounds": [
+        "c_furaneol",
+        "c_isoamyl_acetate",
+        "c_linalool",
+        "c_damascenone",
+        "c_ethyl_butyrate"
+      ],
+      "description": "Sweet, fragrant berry rich in furanones and fruity esters",
+      "color": "rose"
+    },
+    {
+      "id": "ing_apple",
+      "name": "Apple",
+      "category": "Fruity",
+      "compounds": [
+        "c_hexanal",
+        "c_isoamyl_acetate",
+        "c_ethyl_butyrate",
+        "c_damascenone",
+        "c_linalool"
+      ],
+      "description": "Crisp fruit with green hexanal and ester volatile notes",
+      "color": "rose"
+    },
+    {
+      "id": "ing_mango",
+      "name": "Mango",
+      "category": "Fruity",
+      "compounds": [
+        "c_myrcene",
+        "c_carene",
+        "c_ocimene",
+        "c_linalool",
+        "c_furaneol",
+        "c_limonene"
+      ],
+      "description": "Tropical fruit with intense terpene and sweet lactone notes",
+      "color": "rose"
+    },
+    {
+      "id": "ing_raspberry",
+      "name": "Raspberry",
+      "category": "Fruity",
+      "compounds": [
+        "c_raspberry_ketone",
+        "c_damascenone",
+        "c_linalool",
+        "c_ionone",
+        "c_isoamyl_acetate"
+      ],
+      "description": "Tart berry dominated by raspberry ketone and beta-damascenone",
+      "color": "rose"
+    },
+    {
+      "id": "ing_banana",
+      "name": "Banana",
+      "category": "Fruity",
+      "compounds": [
+        "c_isoamyl_acetate",
+        "c_butyl_acetate",
+        "c_eugenol",
+        "c_ethyl_butyrate"
+      ],
+      "description": "Sweet tropical fruit characterized by isoamyl acetate",
+      "color": "rose"
+    },
+    {
+      "id": "ing_peach",
+      "name": "Peach",
+      "category": "Fruity",
+      "compounds": [
+        "c_decalactone",
+        "c_linalool",
+        "c_benzaldehyde",
+        "c_isoamyl_acetate",
+        "c_damascenone"
+      ],
+      "description": "Juicy stone fruit rich in gamma-decalactone",
+      "color": "rose"
+    },
+    {
+      "id": "ing_pineapple",
+      "name": "Pineapple",
+      "category": "Fruity",
+      "compounds": [
+        "c_ethyl_butyrate",
+        "c_furaneol",
+        "c_methyl_hexanoate",
+        "c_octanal"
+      ],
+      "description": "Tropical acidic fruit packed with aliphatic esters and furanones",
+      "color": "rose"
+    },
+    {
+      "id": "ing_blueberry",
+      "name": "Blueberry",
+      "category": "Fruity",
+      "compounds": [
+        "c_linalool",
+        "c_eucalyptol",
+        "c_hexanal",
+        "c_damascenone",
+        "c_ethyl_butyrate"
+      ],
+      "description": "Floral sweet berry with subtle herbal notes",
+      "color": "rose"
+    },
+    {
+      "id": "ing_blackberry",
+      "name": "Blackberry",
+      "category": "Fruity",
+      "compounds": [
+        "c_furaneol",
+        "c_linalool",
+        "c_damascenone",
+        "c_ionone",
+        "c_hexanal"
+      ],
+      "description": "Tart woodland berry with floral ionone and damascenone tones",
+      "color": "rose"
+    },
+    {
+      "id": "ing_passionfruit",
+      "name": "Passion Fruit",
+      "category": "Fruity",
+      "compounds": [
+        "c_ethyl_butyrate",
+        "c_linalool",
+        "c_damascenone",
+        "c_ionone",
+        "c_octanal"
+      ],
+      "description": "Exotic tropical fruit packed with aliphatic esters and aroma lactones",
+      "color": "rose"
+    },
+    {
+      "id": "ing_kiwi",
+      "name": "Kiwifruit",
+      "category": "Fruity",
+      "compounds": [
+        "c_hexanal",
+        "c_ethyl_butyrate",
+        "c_eucalyptol",
+        "c_linalool"
+      ],
+      "description": "Tangy emerald fruit with crisp green aldehydes and fruity esters",
+      "color": "rose"
+    },
+    {
+      "id": "ing_pear",
+      "name": "Pear",
+      "category": "Fruity",
+      "compounds": [
+        "c_ethyl_decadienoate",
+        "c_hexanal",
+        "c_isoamyl_acetate",
+        "c_linalool"
+      ],
+      "description": "Sweet juicy pome fruit driven by ethyl decadienoate esters",
+      "color": "rose"
+    },
+    {
+      "id": "ing_pomegranate",
+      "name": "Pomegranate",
+      "category": "Fruity",
+      "compounds": [
+        "c_hexanal",
+        "c_limonene",
+        "c_linalool",
+        "c_damascenone"
+      ],
+      "description": "Ruby arils with crisp tannic green notes and floral ketones",
+      "color": "rose"
+    },
+    {
+      "id": "ing_watermelon",
+      "name": "Watermelon",
+      "category": "Fruity",
+      "compounds": [
+        "c_nonadienal",
+        "c_nonenal",
+        "c_hexanal",
+        "c_linalool"
+      ],
+      "description": "Refreshing summer melon dominated by (E,Z)-2,6-nonadienal",
+      "color": "rose"
+    },
+    {
+      "id": "ing_cantaloupe",
+      "name": "Cantaloupe",
+      "category": "Fruity",
+      "compounds": [
+        "c_nonadienal",
+        "c_ethyl_butyrate",
+        "c_isoamyl_acetate",
+        "c_linalool"
+      ],
+      "description": "Musky orange melon rich in nonadienal and aliphatic esters",
+      "color": "rose"
+    },
+    {
+      "id": "ing_coconut",
+      "name": "Coconut",
+      "category": "Fruity",
+      "compounds": [
+        "c_octalactone",
+        "c_nonalactone",
+        "c_vanillin",
+        "c_pyrazines"
+      ],
+      "description": "Creamy tropical nut meat rich in delta-octalactone",
+      "color": "rose"
+    },
+    {
+      "id": "ing_fig",
+      "name": "Fig",
+      "category": "Fruity",
+      "compounds": [
+        "c_benzaldehyde",
+        "c_linalool",
+        "c_damascenone",
+        "c_ethyl_butyrate"
+      ],
+      "description": "Jammy, honeyed fruit with subtle almond nuances",
+      "color": "rose"
+    },
+    {
+      "id": "ing_beef",
+      "name": "Beef",
+      "category": "Meat & Poultry",
+      "compounds": [
+        "c_mft",
+        "c_methional",
+        "c_pyrazines",
+        "c_guaiacol",
+        "c_methylbutanal",
+        "c_octenol"
+      ],
+      "description": "Rich savory red meat rich in 2-methyl-3-furanthiol and pyrazines",
+      "color": "red"
+    },
+    {
+      "id": "ing_chicken",
+      "name": "Chicken",
+      "category": "Meat & Poultry",
+      "compounds": [
+        "c_pyrroline",
+        "c_hexanal",
+        "c_decadienal",
+        "c_pyrazines",
+        "c_methional"
+      ],
+      "description": "Savory poultry with Maillard pyrazines and 2-acetyl-1-pyrroline",
+      "color": "amber"
+    },
+    {
+      "id": "ing_pork",
+      "name": "Pork",
+      "category": "Meat & Poultry",
+      "compounds": [
+        "c_mft",
+        "c_furfurylthiol",
+        "c_pyrazines",
+        "c_guaiacol",
+        "c_hexanal"
+      ],
+      "description": "Rich fatty pork combining Maillard pyrazines and furanthiols",
+      "color": "amber"
+    },
+    {
+      "id": "ing_bacon",
+      "name": "Bacon",
+      "category": "Meat & Poultry",
+      "compounds": [
+        "c_guaiacol",
+        "c_syringol",
+        "c_mft",
+        "c_pyrazines",
+        "c_hexanal",
+        "c_methional"
+      ],
+      "description": "Cured pork rich in wood phenols and savory furanthiols",
+      "color": "red"
+    },
+    {
+      "id": "ing_lamb",
+      "name": "Lamb",
+      "category": "Meat & Poultry",
+      "compounds": [
+        "c_methyloctanoic",
+        "c_mft",
+        "c_pyrazines",
+        "c_hexanal",
+        "c_skatole"
+      ],
+      "description": "Distinctive savory gamey meat driven by 4-methyloctanoic acid",
+      "color": "red"
+    },
+    {
+      "id": "ing_duck",
+      "name": "Duck",
+      "category": "Meat & Poultry",
+      "compounds": [
+        "c_mft",
+        "c_decadienal",
+        "c_pyrazines",
+        "c_guaiacol",
+        "c_hexanal"
+      ],
+      "description": "Rich, gamey poultry with high lipid decadienal aldehydes and furanthiols",
+      "color": "red"
+    },
+    {
+      "id": "ing_prosciutto",
+      "name": "Prosciutto",
+      "category": "Meat & Poultry",
+      "compounds": [
+        "c_hexanal",
+        "c_octanal",
+        "c_butyric_acid",
+        "c_methylbutanal",
+        "c_methional"
+      ],
+      "description": "Dry-cured Italian ham packed with savory methylbutanal and short-chain lipids",
+      "color": "rose"
+    },
+    {
+      "id": "ing_salmon",
+      "name": "Salmon",
+      "category": "Seafood",
+      "compounds": [
+        "c_octenol",
+        "c_decadienal",
+        "c_tma",
+        "c_hexanal",
+        "c_dimethyl_sulfide"
+      ],
+      "description": "Rich omega-3 fish with 1-octen-3-ol and lipid aldehydes",
+      "color": "pink"
+    },
+    {
+      "id": "ing_tuna",
+      "name": "Tuna",
+      "category": "Seafood",
+      "compounds": [
+        "c_hexanal",
+        "c_tma",
+        "c_octenol",
+        "c_methional",
+        "c_nonadienal"
+      ],
+      "description": "Meaty marine fish with clean sea notes and methional umami",
+      "color": "red"
+    },
+    {
+      "id": "ing_shrimp",
+      "name": "Shrimp",
+      "category": "Seafood",
+      "compounds": [
+        "c_pyrazines",
+        "c_dimethyl_sulfide",
+        "c_tma",
+        "c_methional",
+        "c_pyrroline"
+      ],
+      "description": "Sweet, savory crustacean packed with pyrazines and marine sulfides",
+      "color": "orange"
+    },
+    {
+      "id": "ing_oyster",
+      "name": "Oyster",
+      "category": "Seafood",
+      "compounds": [
+        "c_nonadienal",
+        "c_dimethyl_sulfide",
+        "c_octenol",
+        "c_tma"
+      ],
+      "description": "Briny, clean shellfish characterized by cucumber-like nonadienal",
+      "color": "slate"
+    },
+    {
+      "id": "ing_scallop",
+      "name": "Scallop",
+      "category": "Seafood",
+      "compounds": [
+        "c_dimethyl_sulfide",
+        "c_pyrazines",
+        "c_furaneol",
+        "c_methional",
+        "c_tma"
+      ],
+      "description": "Sweet marine bivalve developing pyrazines and furanones",
+      "color": "amber"
+    },
+    {
+      "id": "ing_carrot",
+      "name": "Carrot",
+      "category": "Vegetable",
+      "compounds": [
+        "c_pinene",
+        "c_myrcene",
+        "c_terpinene",
+        "c_caryophyllene",
+        "c_pyrazines"
+      ],
+      "description": "Sweet root vegetable rich in terpene hydrocarbons and pyrazines",
+      "color": "orange"
+    },
+    {
+      "id": "ing_zucchini",
+      "name": "Zucchini",
+      "category": "Vegetable",
+      "compounds": [
+        "c_hexanal",
+        "c_isobutyl_methoxypyrazine",
+        "c_linalool"
+      ],
+      "description": "Mild green summer squash with crisp hexanal aldehydes",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_eggplant",
+      "name": "Eggplant",
+      "category": "Vegetable",
+      "compounds": [
+        "c_guaiacol",
+        "c_pyrazines",
+        "c_hexanal",
+        "c_methional"
+      ],
+      "description": "Spongy savory nightshade developing guaiacol and pyrazines",
+      "color": "purple"
+    },
+    {
+      "id": "ing_cucumber",
+      "name": "Cucumber",
+      "category": "Vegetable",
+      "compounds": [
+        "c_nonadienal",
+        "c_nonenal",
+        "c_hexanal"
+      ],
+      "description": "Cooling green vegetable dominated by (E,Z)-2,6-nonadienal",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_broccoli",
+      "name": "Broccoli",
+      "category": "Vegetable",
+      "compounds": [
+        "c_dimethyl_disulfide",
+        "c_dimethyl_trisulfide",
+        "c_hexanal",
+        "c_methional"
+      ],
+      "description": "Cruciferous floret rich in organosulfur breakdown compounds",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_cauliflower",
+      "name": "Cauliflower",
+      "category": "Vegetable",
+      "compounds": [
+        "c_pyrazines",
+        "c_dimethyl_disulfide",
+        "c_methional",
+        "c_guaiacol"
+      ],
+      "description": "Nutty cruciferous brassica yielding pyrazines",
+      "color": "amber"
+    },
+    {
+      "id": "ing_spinach",
+      "name": "Spinach",
+      "category": "Vegetable",
+      "compounds": [
+        "c_hexanal",
+        "c_ionone",
+        "c_dimethyl_sulfide",
+        "c_linalool"
+      ],
+      "description": "Tender leafy green containing iron-like notes and beta-ionones",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_asparagus",
+      "name": "Asparagus",
+      "category": "Vegetable",
+      "compounds": [
+        "c_dimethyl_sulfide",
+        "c_methional",
+        "c_isobutyl_methoxypyrazine",
+        "c_pyrazines"
+      ],
+      "description": "Savory spring shoot rich in sulfur compounds and methoxypyrazines",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_avocado",
+      "name": "Avocado",
+      "category": "Vegetable",
+      "compounds": [
+        "c_hexanal",
+        "c_octanal",
+        "c_linalool",
+        "c_decanal"
+      ],
+      "description": "Creamy rich fruit consumed as vegetable, rich in aliphatic lipid aldehydes",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_sweet_corn",
+      "name": "Sweet Corn",
+      "category": "Vegetable",
+      "compounds": [
+        "c_dimethyl_sulfide",
+        "c_pyrazines",
+        "c_furaneol",
+        "c_methional",
+        "c_pyrroline"
+      ],
+      "description": "Sweet golden grain developing cereal pyrazines and popcorn pyrroline",
+      "color": "amber"
+    },
+    {
+      "id": "ing_pumpkin",
+      "name": "Pumpkin",
+      "category": "Vegetable",
+      "compounds": [
+        "c_pyrazines",
+        "c_furaneol",
+        "c_vanillin",
+        "c_hexanal"
+      ],
+      "description": "Sweet autumnal squash yielding pyrazines and caramel notes",
+      "color": "orange"
+    },
+    {
+      "id": "ing_olive_green",
+      "name": "Green Olive",
+      "category": "Vegetable",
+      "compounds": [
+        "c_hexanal",
+        "c_acetic_acid",
+        "c_octanal",
+        "c_linalool",
+        "c_guaiacol"
+      ],
+      "description": "Buttery briny green drupe rich in fruit aldehydes and olive polyphenols",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_vanilla",
+      "name": "Vanilla",
+      "category": "Sweet",
+      "compounds": [
+        "c_vanillin",
+        "c_guaiacol",
+        "c_anisaldehyde",
+        "c_eugenol",
+        "c_furaneol"
+      ],
+      "description": "Rich, creamy pod aroma dominated by natural vanillin",
+      "color": "yellow"
+    },
+    {
+      "id": "ing_dark_chocolate",
+      "name": "Dark Chocolate",
+      "category": "Sweet",
+      "compounds": [
+        "c_pyrazines",
+        "c_vanillin",
+        "c_phenylethanol",
+        "c_isoamyl_acetate",
+        "c_guaiacol",
+        "c_furaneol"
+      ],
+      "description": "Complex cocoa with alkylpyrazines and floral notes",
+      "color": "yellow"
+    },
+    {
+      "id": "ing_milk_chocolate",
+      "name": "Milk Chocolate",
+      "category": "Sweet",
+      "compounds": [
+        "c_vanillin",
+        "c_butyric_acid",
+        "c_pyrazines",
+        "c_diacetyl",
+        "c_furaneol"
+      ],
+      "description": "Smooth cocoa with milky lactones and sweet vanillin",
+      "color": "yellow"
+    },
+    {
+      "id": "ing_honey",
+      "name": "Honey",
+      "category": "Sweet",
+      "compounds": [
+        "c_phenylacetic_acid",
+        "c_phenylethanol",
+        "c_linalool",
+        "c_damascenone",
+        "c_vanillin"
+      ],
+      "description": "Floral sweet nectar with honeyed phenylacetic acid",
+      "color": "yellow"
+    },
+    {
+      "id": "ing_caramel",
+      "name": "Salted Caramel",
+      "category": "Sweet",
+      "compounds": [
+        "c_furaneol",
+        "c_maltol",
+        "c_diacetyl",
+        "c_vanillin",
+        "c_pyrazines"
+      ],
+      "description": "Rich cooked sugar note driven by maltol and furaneol",
+      "color": "yellow"
+    },
+    {
+      "id": "ing_maple",
+      "name": "Maple Syrup",
+      "category": "Sweet",
+      "compounds": [
+        "c_sotolon",
+        "c_vanillin",
+        "c_furaneol",
+        "c_pyrazines",
+        "c_guaiacol"
+      ],
+      "description": "Woody sweet sap characterized by sotolon lactone",
+      "color": "yellow"
+    },
+    {
+      "id": "ing_almond",
+      "name": "Almond",
+      "category": "Nutty",
+      "compounds": [
+        "c_benzaldehyde",
+        "c_pyrazines",
+        "c_vanillin",
+        "c_furaneol",
+        "c_guaiacol"
+      ],
+      "description": "Nutty, marzipan-like stone fruit nut rich in benzaldehyde",
+      "color": "amber"
+    },
+    {
+      "id": "ing_hazelnut",
+      "name": "Hazelnut",
+      "category": "Nutty",
+      "compounds": [
+        "c_filbertone",
+        "c_pyrazines",
+        "c_guaiacol",
+        "c_furaneol",
+        "c_vanillin"
+      ],
+      "description": "Distinctive hazelnut profile driven by filbertone",
+      "color": "amber"
+    },
+    {
+      "id": "ing_pistachio",
+      "name": "Pistachio",
+      "category": "Nutty",
+      "compounds": [
+        "c_pinene",
+        "c_pyrazines",
+        "c_limonene",
+        "c_benzaldehyde"
+      ],
+      "description": "Savory green nut with resinous pine terpenes and pyrazines",
+      "color": "amber"
+    },
+    {
+      "id": "ing_walnut",
+      "name": "Walnut",
+      "category": "Nutty",
+      "compounds": [
+        "c_pentenal",
+        "c_hexanal",
+        "c_pyrazines",
+        "c_guaiacol"
+      ],
+      "description": "Tannic, earthy nut with aldehydes and pyrazines",
+      "color": "amber"
+    },
+    {
+      "id": "ing_peanut",
+      "name": "Peanut",
+      "category": "Nutty",
+      "compounds": [
+        "c_pyrazines",
+        "c_pyrrole",
+        "c_hexanal",
+        "c_benzaldehyde"
+      ],
+      "description": "Rich legume nut heavily dominated by 2,5-dimethylpyrazine",
+      "color": "amber"
+    },
+    {
+      "id": "ing_coffee",
+      "name": "Coffee Bean",
+      "category": "Roasted",
+      "compounds": [
+        "c_furfurylthiol",
+        "c_pyrazines",
+        "c_guaiacol",
+        "c_syringol",
+        "c_vanillin",
+        "c_damascenone"
+      ],
+      "description": "Deeply aromatic bean packed with furfurylthiol and pyrazines",
+      "color": "stone"
+    },
+    {
+      "id": "ing_black_tea",
+      "name": "Black Tea",
+      "category": "Roasted",
+      "compounds": [
+        "c_linalool",
+        "c_geraniol",
+        "c_damascenone",
+        "c_phenylethanol",
+        "c_hexanal"
+      ],
+      "description": "Malty, floral fermented tea leaves rich in damascenone and linalool",
+      "color": "stone"
+    },
+    {
+      "id": "ing_green_tea",
+      "name": "Green Tea",
+      "category": "Roasted",
+      "compounds": [
+        "c_dimethyl_sulfide",
+        "c_linalool",
+        "c_geraniol",
+        "c_hexanal",
+        "c_ionone"
+      ],
+      "description": "Vegetal, umami tea with dimethyl sulfide and ionones",
+      "color": "stone"
+    },
+    {
+      "id": "ing_garlic",
+      "name": "Garlic",
+      "category": "Allium",
+      "compounds": [
+        "c_allicin",
+        "c_diallyl_disulfide",
+        "c_allyl_mercaptan",
+        "c_methional"
+      ],
+      "description": "Pungent allium bulb dominated by sulfur organosulfides",
+      "color": "slate"
+    },
+    {
+      "id": "ing_onion",
+      "name": "Caramelized Onion",
+      "category": "Allium",
+      "compounds": [
+        "c_diallyl_disulfide",
+        "c_dimethyl_disulfide",
+        "c_pyrazines",
+        "c_furaneol",
+        "c_methional"
+      ],
+      "description": "Sweet allium combining Maillard pyrazines and sulfur compounds",
+      "color": "slate"
+    },
+    {
+      "id": "ing_shallot",
+      "name": "Shallot",
+      "category": "Allium",
+      "compounds": [
+        "c_diallyl_disulfide",
+        "c_thiophenes",
+        "c_hexanal",
+        "c_methional"
+      ],
+      "description": "Delicate, sweet allium with refined organosulfur complexity",
+      "color": "slate"
+    },
+    {
+      "id": "ing_tomato",
+      "name": "Tomato",
+      "category": "Savory",
+      "compounds": [
+        "c_hexanal",
+        "c_damascenone",
+        "c_methional",
+        "c_guaiacol",
+        "c_linalool",
+        "c_isobutylthiazole"
+      ],
+      "description": "Umami-rich fruit with green aldehydes and sulfur compounds",
+      "color": "red"
+    },
+    {
+      "id": "ing_bell_pepper",
+      "name": "Bell Pepper",
+      "category": "Savory",
+      "compounds": [
+        "c_isobutyl_methoxypyrazine",
+        "c_hexanal",
+        "c_linalool"
+      ],
+      "description": "Crisp vegetable characterized by 2-isobutyl-3-methoxypyrazine",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_chili_pepper",
+      "name": "Chili Pepper",
+      "category": "Savory",
+      "compounds": [
+        "c_capsaicin",
+        "c_isobutyl_methoxypyrazine",
+        "c_hexanal",
+        "c_linalool"
+      ],
+      "description": "Piquant fiery pod containing capsaicin and methoxypyrazines",
+      "color": "red"
+    },
+    {
+      "id": "ing_celery",
+      "name": "Celery",
+      "category": "Savory",
+      "compounds": [
+        "c_sedanolide",
+        "c_limonene",
+        "c_myrcene",
+        "c_phellandrene"
+      ],
+      "description": "Crisp green stalk characterized by phthalides like sedanolide",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_parmesan",
+      "name": "Parmesan Cheese",
+      "category": "Dairy",
+      "compounds": [
+        "c_butyric_acid",
+        "c_hexanoic_acid",
+        "c_methional",
+        "c_diacetyl",
+        "c_pyrazines"
+      ],
+      "description": "Sharp, umami, crystalline aged cheese rich in short-chain fatty acids",
+      "color": "yellow"
+    },
+    {
+      "id": "ing_butter",
+      "name": "Butter",
+      "category": "Dairy",
+      "compounds": [
+        "c_diacetyl",
+        "c_acetoin",
+        "c_butyric_acid",
+        "c_linalool",
+        "c_vanillin"
+      ],
+      "description": "Rich, creamy dairy component dominated by diacetyl and acetoin",
+      "color": "yellow"
+    },
+    {
+      "id": "ing_cheddar",
+      "name": "Cheddar Cheese",
+      "category": "Dairy",
+      "compounds": [
+        "c_butyric_acid",
+        "c_diacetyl",
+        "c_methional",
+        "c_dimethyl_sulfide"
+      ],
+      "description": "Pungent sharp cheese with sulfur and fatty acid notes",
+      "color": "yellow"
+    },
+    {
+      "id": "ing_blue_cheese",
+      "name": "Blue Cheese",
+      "category": "Dairy",
+      "compounds": [
+        "c_heptanone",
+        "c_nonanone",
+        "c_octen_3_ol",
+        "c_butyric_acid"
+      ],
+      "description": "Intense piquant mold-ripened cheese rich in methyl ketones",
+      "color": "indigo"
+    },
+    {
+      "id": "ing_mushroom",
+      "name": "Porcini Mushroom",
+      "category": "Earthy",
+      "compounds": [
+        "c_octenol",
+        "c_geosmin",
+        "c_methional",
+        "c_guaiacol",
+        "c_pyrazines"
+      ],
+      "description": "Savory, earthy wild mushroom with 1-octen-3-ol and geosmin",
+      "color": "stone"
+    },
+    {
+      "id": "ing_truffle",
+      "name": "Black Truffle",
+      "category": "Earthy",
+      "compounds": [
+        "c_bis_methylthiomethane",
+        "c_dimethyl_sulfide",
+        "c_octenol",
+        "c_guaiacol"
+      ],
+      "description": "Luxurious earthy fungus rich in bis(methylthio)methane",
+      "color": "stone"
+    },
+    {
+      "id": "ing_beetroot",
+      "name": "Beetroot",
+      "category": "Earthy",
+      "compounds": [
+        "c_geosmin",
+        "c_hexanal",
+        "c_pyrazines",
+        "c_methional",
+        "c_damascenone"
+      ],
+      "description": "Deeply sweet and earthy root driven by geosmin",
+      "color": "purple"
+    },
+    {
+      "id": "ing_lavender",
+      "name": "Lavender",
+      "category": "Floral",
+      "compounds": [
+        "c_linalool",
+        "c_linalyl_acetate",
+        "c_cineole",
+        "c_camphor",
+        "c_pinene",
+        "c_geraniol"
+      ],
+      "description": "Fragrant floral blossom dominated by linalool and linalyl acetate",
+      "color": "indigo"
+    },
+    {
+      "id": "ing_rose_water",
+      "name": "Rose Water",
+      "category": "Floral",
+      "compounds": [
+        "c_phenylethanol",
+        "c_geraniol",
+        "c_citronellol",
+        "c_damascenone",
+        "c_linalool"
+      ],
+      "description": "Perfumed floral extract packed with phenylethanol and rose ketones",
+      "color": "pink"
+    },
+    {
+      "id": "ing_jasmine",
+      "name": "Jasmine Tea",
+      "category": "Floral",
+      "compounds": [
+        "c_linalool",
+        "c_benzyl_acetate",
+        "c_indole",
+        "c_geraniol",
+        "c_phenylethanol"
+      ],
+      "description": "Exotic floral note with benzyl acetate and sweet indole notes",
+      "color": "purple"
+    },
+    {
+      "id": "ing_soy_sauce",
+      "name": "Soy Sauce",
+      "category": "Fermented",
+      "compounds": [
+        "c_hemf",
+        "c_methional",
+        "c_guaiacol",
+        "c_isovaleraldehyde",
+        "c_pyrazines"
+      ],
+      "description": "Complex umami condiment rich in 4-hydroxy-2,5-dimethyl-3(2H)-furanone",
+      "color": "slate"
+    },
+    {
+      "id": "ing_red_wine",
+      "name": "Red Wine",
+      "category": "Fermented",
+      "compounds": [
+        "c_isoamyl_alcohol",
+        "c_ethyl_hexanoate",
+        "c_guaiacol",
+        "c_damascenone",
+        "c_linalool"
+      ],
+      "description": "Aged fermented grape beverage with complex esters and oak lactones",
+      "color": "purple"
+    },
+    {
+      "id": "ing_turkey",
+      "name": "Turkey",
+      "category": "Meat & Poultry",
+      "compounds": [
+        "c_pyrroline",
+        "c_hexanal",
+        "c_pyrazines",
+        "c_methional",
+        "c_decadienal"
+      ],
+      "description": "Roasted savory poultry with Maillard pyrazines and lipid aldehydes",
+      "color": "amber"
+    },
+    {
+      "id": "ing_veal",
+      "name": "Veal",
+      "category": "Meat & Poultry",
+      "compounds": [
+        "c_mft",
+        "c_hexanal",
+        "c_methional",
+        "c_pyrazines",
+        "c_octenol"
+      ],
+      "description": "Tender, delicate young beef with mild furanthiols and lipid aldehydes",
+      "color": "red"
+    },
+    {
+      "id": "ing_venison",
+      "name": "Venison",
+      "category": "Meat & Poultry",
+      "compounds": [
+        "c_methyloctanoic",
+        "c_mft",
+        "c_pyrazines",
+        "c_guaiacol",
+        "c_hexanal"
+      ],
+      "description": "Lean, rich game meat with methyloctanoic acid and Maillard pyrazines",
+      "color": "red"
+    },
+    {
+      "id": "ing_salami",
+      "name": "Salami",
+      "category": "Meat & Poultry",
+      "compounds": [
+        "c_allicin",
+        "c_hexanal",
+        "c_butyric_acid",
+        "c_methylbutanal",
+        "c_pyrazines"
+      ],
+      "description": "Fermented cured sausage with garlic allicin, hexanal, and butyric acid",
+      "color": "red"
+    },
+    {
+      "id": "ing_pancetta",
+      "name": "Pancetta",
+      "category": "Meat & Poultry",
+      "compounds": [
+        "c_hexanal",
+        "c_octanal",
+        "c_mft",
+        "c_guaiacol",
+        "c_butyric_acid"
+      ],
+      "description": "Cured Italian pork belly rich in lipid aldehydes and savory furanthiols",
+      "color": "rose"
+    },
+    {
+      "id": "ing_chorizo",
+      "name": "Chorizo",
+      "category": "Meat & Poultry",
+      "compounds": [
+        "c_capsaicin",
+        "c_guaiacol",
+        "c_pyrazines",
+        "c_allicin",
+        "c_hexanal"
+      ],
+      "description": "Spiced Spanish sausage with capsaicin, guaiacol, pyrazines, and garlic",
+      "color": "red"
+    },
+    {
+      "id": "ing_sausage",
+      "name": "Pork Sausage",
+      "category": "Meat & Poultry",
+      "compounds": [
+        "c_cineole",
+        "c_mft",
+        "c_pyrazines",
+        "c_hexanal",
+        "c_thujone"
+      ],
+      "description": "Savory seasoned pork sausage with herbal terpenes, pyrazines, and furanthiols",
+      "color": "amber"
+    },
+    {
+      "id": "ing_ham",
+      "name": "Ham",
+      "category": "Meat & Poultry",
+      "compounds": [
+        "c_syringol",
+        "c_guaiacol",
+        "c_hexanal",
+        "c_methional",
+        "c_furfurylthiol"
+      ],
+      "description": "Cured, slightly sweet pork with syringol smoke notes, hexanal, and methional",
+      "color": "rose"
+    },
+    {
+      "id": "ing_kale",
+      "name": "Kale",
+      "category": "Vegetable",
+      "compounds": [
+        "c_dimethyl_disulfide",
+        "c_hexanal",
+        "c_ionone",
+        "c_linalool"
+      ],
+      "description": "Peppery leafy brassica rich in dimethyl disulfide, hexanal, and ionone",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_sweet_potato",
+      "name": "Sweet Potato",
+      "category": "Vegetable",
+      "compounds": [
+        "c_maltol",
+        "c_damascenone",
+        "c_ionone",
+        "c_pyrazines",
+        "c_furaneol"
+      ],
+      "description": "Sweet root vegetable rich in maltol, beta-damascenone, and beta-ionone",
+      "color": "amber"
+    },
+    {
+      "id": "ing_radish",
+      "name": "Radish",
+      "category": "Vegetable",
+      "compounds": [
+        "c_dimethyl_disulfide",
+        "c_dimethyl_trisulfide",
+        "c_hexanal",
+        "c_isobutyl_methoxypyrazine"
+      ],
+      "description": "Crisp, pungent root vegetable rich in organosulfur compounds and hexanal",
+      "color": "rose"
+    },
+    {
+      "id": "ing_artichoke",
+      "name": "Artichoke",
+      "category": "Vegetable",
+      "compounds": [
+        "c_pyrazines",
+        "c_hexanal",
+        "c_nonenal",
+        "c_isobutyl_methoxypyrazine"
+      ],
+      "description": "Savory, slightly sweet thistle heart with pyrazines and green lipid aldehydes",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_fennel_bulb",
+      "name": "Fennel Bulb",
+      "category": "Vegetable",
+      "compounds": [
+        "c_anethole",
+        "c_estragole",
+        "c_pinene",
+        "c_limonene"
+      ],
+      "description": "Crisp anise-flavored bulb rich in trans-anethole and estragole",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_leek",
+      "name": "Leek",
+      "category": "Vegetable",
+      "compounds": [
+        "c_diallyl_disulfide",
+        "c_methional",
+        "c_allicin",
+        "c_dimethyl_sulfide"
+      ],
+      "description": "Mild sweet allium vegetable rich in diallyl disulfide and methional",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_brussels_sprouts",
+      "name": "Brussels Sprouts",
+      "category": "Vegetable",
+      "compounds": [
+        "c_dimethyl_trisulfide",
+        "c_dimethyl_disulfide",
+        "c_pyrazines",
+        "c_hexanal"
+      ],
+      "description": "Nutty brassica buds rich in organosulfur breakdown compounds and pyrazines",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_cabbage",
+      "name": "Cabbage",
+      "category": "Vegetable",
+      "compounds": [
+        "c_dimethyl_disulfide",
+        "c_hexanal",
+        "c_methional",
+        "c_dimethyl_trisulfide"
+      ],
+      "description": "Crisp cruciferous leaves packed with organosulfur compounds and hexanal",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_arugula",
+      "name": "Arugula",
+      "category": "Vegetable",
+      "compounds": [
+        "c_dimethyl_disulfide",
+        "c_hexanal",
+        "c_isobutylthiazole",
+        "c_nonenal"
+      ],
+      "description": "Peppery green leaf rich in glucosinolate sulfur breakdown notes and hexanal",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_snap_peas",
+      "name": "Snap Peas",
+      "category": "Vegetable",
+      "compounds": [
+        "c_isobutyl_methoxypyrazine",
+        "c_hexanal",
+        "c_linalool",
+        "c_nonadienal"
+      ],
+      "description": "Sweet green pods driven by 2-isobutyl-3-methoxypyrazine and hexanal",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_butternut_squash",
+      "name": "Butternut Squash",
+      "category": "Vegetable",
+      "compounds": [
+        "c_pyrazines",
+        "c_furaneol",
+        "c_vanillin",
+        "c_damascenone"
+      ],
+      "description": "Creamy sweet winter squash developing pyrazines and furaneol",
+      "color": "orange"
+    },
+    {
+      "id": "ing_turnip",
+      "name": "Turnip",
+      "category": "Vegetable",
+      "compounds": [
+        "c_dimethyl_disulfide",
+        "c_pyrazines",
+        "c_hexanal",
+        "c_methional"
+      ],
+      "description": "Peppery white root vegetable with organosulfur compounds and pyrazines",
+      "color": "slate"
+    },
+    {
+      "id": "ing_bok_choy",
+      "name": "Bok Choy",
+      "category": "Vegetable",
+      "compounds": [
+        "c_dimethyl_disulfide",
+        "c_hexanal",
+        "c_methional",
+        "c_linalool"
+      ],
+      "description": "Crisp Asian cabbage rich in dimethyl disulfide, hexanal, and methional",
+      "color": "emerald"
+    },
+    {
+      "id": "ing_egg",
+      "name": "Egg",
+      "category": "Savory",
+      "compounds": [
+        "c_mft",
+        "c_dimethyl_sulfide",
+        "c_dimethyl_trisulfide",
+        "c_pyrazines",
+        "c_decadienal"
+      ],
+      "description": "Versatile protein-rich ingredient with subtle sulfurous and roasted notes when cooked",
+      "color": "yellow"
+    },
+    {
+      "id": "ing_rice",
+      "name": "Rice",
+      "category": "Savory",
+      "compounds": [
+        "c_pyrroline",
+        "c_hexanal",
+        "c_octanal",
+        "c_nonanone",
+        "c_pyrazines"
+      ],
+      "description": "Staple grain with a mild, starchy sweetness and the floral 2-acetyl-1-pyrroline aroma",
+      "color": "stone"
+    },
+    {
+      "id": "ing_coconut_milk",
+      "name": "Coconut Milk",
+      "category": "Dairy",
+      "compounds": [
+        "c_nonalactone",
+        "c_octalactone",
+        "c_decalactone",
+        "c_hexanal",
+        "c_eugenol"
+      ],
+      "description": "Rich, creamy tropical milk with sweet coconut lactones and a silky mouthfeel",
+      "color": "amber"
+    },
+    {
+      "id": "ing_anchovies",
+      "name": "Anchovies",
+      "category": "Seafood",
+      "compounds": [
+        "c_tma",
+        "c_dimethyl_sulfide",
+        "c_acetic_acid",
+        "c_mft",
+        "c_hexanal"
+      ],
+      "description": "Small salt-cured fish delivering intense umami, briny, and fishy depth",
+      "color": "amber"
+    },
+    {
+      "id": "ing_red_chili",
+      "name": "Red Chili",
+      "category": "Spice",
+      "compounds": [
+        "c_capsaicin",
+        "c_isobutyl_methoxypyrazine",
+        "c_linalool",
+        "c_hexanal",
+        "c_citral"
+      ],
+      "description": "Fiery ripe chili delivering capsaicin heat with fruity red pepper sweetness",
+      "color": "red"
+    }
+  ],
+  "compounds": [
+    {
+      "id": "c_linalool",
+      "name": "Linalool",
+      "flavor_profile": [
+        "floral",
+        "citrus",
+        "sweet",
+        "woody"
+      ],
+      "casNumber": "78-70-6"
+    },
+    {
+      "id": "c_eugenol",
+      "name": "Eugenol",
+      "flavor_profile": [
+        "clove",
+        "spicy",
+        "sweet",
+        "woody"
+      ],
+      "casNumber": "97-53-0"
+    },
+    {
+      "id": "c_estragole",
+      "name": "Estragole",
+      "flavor_profile": [
+        "anise",
+        "herbal",
+        "sweet",
+        "licorice"
+      ],
+      "casNumber": "140-67-0"
+    },
+    {
+      "id": "c_cineole",
+      "name": "1,8-Cineole (Eucalyptol)",
+      "flavor_profile": [
+        "eucalyptus",
+        "fresh",
+        "camphor",
+        "herbal"
+      ],
+      "casNumber": "470-82-6"
+    },
+    {
+      "id": "c_pinene",
+      "name": "Alpha-Pinene",
+      "flavor_profile": [
+        "pine",
+        "woody",
+        "resinous",
+        "fresh"
+      ],
+      "casNumber": "80-56-8"
+    },
+    {
+      "id": "c_myrcene",
+      "name": "Beta-Myrcene",
+      "flavor_profile": [
+        "peppery",
+        "balsamic",
+        "herbal",
+        "citrus"
+      ],
+      "casNumber": "123-35-3"
+    },
+    {
+      "id": "c_carvone",
+      "name": "L-Carvone",
+      "flavor_profile": [
+        "spearmint",
+        "herbal",
+        "fresh",
+        "cool"
+      ],
+      "casNumber": "6485-40-1"
+    },
+    {
+      "id": "c_limonene",
+      "name": "D-Limonene",
+      "flavor_profile": [
+        "citrus",
+        "orange",
+        "lemon",
+        "sweet"
+      ],
+      "casNumber": "5989-27-5"
+    },
+    {
+      "id": "c_menthol",
+      "name": "Menthol",
+      "flavor_profile": [
+        "cooling",
+        "mint",
+        "fresh",
+        "peppermint"
+      ],
+      "casNumber": "2216-51-5"
+    },
+    {
+      "id": "c_menthone",
+      "name": "Menthone",
+      "flavor_profile": [
+        "minty",
+        "cooling",
+        "herbal",
+        "fresh"
+      ],
+      "casNumber": "89-80-5"
+    },
+    {
+      "id": "c_camphor",
+      "name": "Camphor",
+      "flavor_profile": [
+        "camphoraceous",
+        "medicinal",
+        "fresh",
+        "cool"
+      ],
+      "casNumber": "76-22-2"
+    },
+    {
+      "id": "c_borneol",
+      "name": "Borneol",
+      "flavor_profile": [
+        "pine",
+        "woody",
+        "camphor",
+        "herbal"
+      ],
+      "casNumber": "507-70-0"
+    },
+    {
+      "id": "c_thymol",
+      "name": "Thymol",
+      "flavor_profile": [
+        "thyme",
+        "savory",
+        "herbal",
+        "medicinal"
+      ],
+      "casNumber": "89-83-8"
+    },
+    {
+      "id": "c_carvacrol",
+      "name": "Carvacrol",
+      "flavor_profile": [
+        "oregano",
+        "warm",
+        "spicy",
+        "savory"
+      ],
+      "casNumber": "499-75-2"
+    },
+    {
+      "id": "c_thujone",
+      "name": "Alpha-Thujone",
+      "flavor_profile": [
+        "mentholic",
+        "herbal",
+        "woody",
+        "sage"
+      ],
+      "casNumber": "546-80-5"
+    },
+    {
+      "id": "c_cymene",
+      "name": "p-Cymene",
+      "flavor_profile": [
+        "citrus",
+        "terpenic",
+        "woody",
+        "spicy"
+      ],
+      "casNumber": "99-87-6"
+    },
+    {
+      "id": "c_myristicin",
+      "name": "Myristicin",
+      "flavor_profile": [
+        "nutmeg",
+        "woody",
+        "warm",
+        "balsamic"
+      ],
+      "casNumber": "607-91-0"
+    },
+    {
+      "id": "c_apiol",
+      "name": "Apiol",
+      "flavor_profile": [
+        "parsley",
+        "herbal",
+        "woody",
+        "warm"
+      ],
+      "casNumber": "523-80-8"
+    },
+    {
+      "id": "c_phellandrene",
+      "name": "Alpha-Phellandrene",
+      "flavor_profile": [
+        "peppery",
+        "citrus",
+        "herbal",
+        "fresh"
+      ],
+      "casNumber": "99-83-2"
+    },
+    {
+      "id": "c_dill_ether",
+      "name": "Dill Ether",
+      "flavor_profile": [
+        "dill",
+        "herbal",
+        "sweet",
+        "fresh"
+      ],
+      "casNumber": "74410-10-9"
+    },
+    {
+      "id": "c_decanal",
+      "name": "Decanal",
+      "flavor_profile": [
+        "citrus",
+        "orange",
+        "waxy",
+        "green"
+      ],
+      "casNumber": "112-31-2"
+    },
+    {
+      "id": "c_dodecanal",
+      "name": "Dodecanal",
+      "flavor_profile": [
+        "citrus",
+        "soapy",
+        "floral",
+        "fatty"
+      ],
+      "casNumber": "112-54-9"
+    },
+    {
+      "id": "c_citral",
+      "name": "Citral (Neral + Geranial)",
+      "flavor_profile": [
+        "lemon",
+        "citrus",
+        "intense",
+        "sweet"
+      ],
+      "casNumber": "5392-40-5"
+    },
+    {
+      "id": "c_geraniol",
+      "name": "Geraniol",
+      "flavor_profile": [
+        "rose",
+        "floral",
+        "sweet",
+        "citrus"
+      ],
+      "casNumber": "106-24-1"
+    },
+    {
+      "id": "c_terpinene",
+      "name": "Gamma-Terpinene",
+      "flavor_profile": [
+        "citrus",
+        "terpenic",
+        "herbaceous",
+        "lemon"
+      ],
+      "casNumber": "99-85-4"
+    },
+    {
+      "id": "c_bisabolene",
+      "name": "Beta-Bisabolene",
+      "flavor_profile": [
+        "balsamic",
+        "woody",
+        "citrus",
+        "sweet"
+      ],
+      "casNumber": "495-62-5"
+    },
+    {
+      "id": "c_octanal",
+      "name": "Octanal",
+      "flavor_profile": [
+        "citrus",
+        "orange",
+        "fatty",
+        "green"
+      ],
+      "casNumber": "124-13-0"
+    },
+    {
+      "id": "c_sinensal",
+      "name": "Alpha-Sinensal",
+      "flavor_profile": [
+        "sweet orange",
+        "juicy",
+        "citrus",
+        "floral"
+      ],
+      "casNumber": "17909-77-2"
+    },
+    {
+      "id": "c_nootkatone",
+      "name": "Nootkatone",
+      "flavor_profile": [
+        "grapefruit",
+        "woody",
+        "citrus",
+        "bitter"
+      ],
+      "casNumber": "4674-50-5"
+    },
+    {
+      "id": "c_linalyl_acetate",
+      "name": "Linalyl Acetate",
+      "flavor_profile": [
+        "lavender",
+        "bergamot",
+        "floral",
+        "sweet"
+      ],
+      "casNumber": "115-95-7"
+    },
+    {
+      "id": "c_bergapten",
+      "name": "Bergapten",
+      "flavor_profile": [
+        "citrus",
+        "herbal",
+        "woody"
+      ],
+      "casNumber": "484-20-8"
+    },
+    {
+      "id": "c_yuzunone",
+      "name": "Yuzunone",
+      "flavor_profile": [
+        "yuzu",
+        "citrus",
+        "balsamic",
+        "exotic"
+      ],
+      "casNumber": "313973-37-4"
+    },
+    {
+      "id": "c_cinnamaldehyde",
+      "name": "Trans-Cinnamaldehyde",
+      "flavor_profile": [
+        "cinnamon",
+        "spicy",
+        "warm",
+        "sweet"
+      ],
+      "casNumber": "14371-10-9"
+    },
+    {
+      "id": "c_caryophyllene",
+      "name": "Beta-Caryophyllene",
+      "flavor_profile": [
+        "woody",
+        "spicy",
+        "clove",
+        "clove-like"
+      ],
+      "casNumber": "87-44-5"
+    },
+    {
+      "id": "c_eugenyl_acetate",
+      "name": "Eugenyl Acetate",
+      "flavor_profile": [
+        "clove",
+        "sweet",
+        "spicy",
+        "floral"
+      ],
+      "casNumber": "93-28-7"
+    },
+    {
+      "id": "c_humulene",
+      "name": "Alpha-Humulene",
+      "flavor_profile": [
+        "hoppy",
+        "woody",
+        "earthy",
+        "balsamic"
+      ],
+      "casNumber": "6753-98-6"
+    },
+    {
+      "id": "c_piperine",
+      "name": "Piperine",
+      "flavor_profile": [
+        "black pepper",
+        "pungent",
+        "biting",
+        "warm"
+      ],
+      "casNumber": "94-62-2"
+    },
+    {
+      "id": "c_sabinene",
+      "name": "Sabinene",
+      "flavor_profile": [
+        "woody",
+        "spicy",
+        "citrus",
+        "terpenic"
+      ],
+      "casNumber": "3387-41-5"
+    },
+    {
+      "id": "c_terpinyl_acetate",
+      "name": "Alpha-Terpinyl Acetate",
+      "flavor_profile": [
+        "cardamom",
+        "herbal",
+        "citrus",
+        "sweet"
+      ],
+      "casNumber": "80-26-4"
+    },
+    {
+      "id": "c_gingerol",
+      "name": "6-Gingerol",
+      "flavor_profile": [
+        "ginger",
+        "pungent",
+        "spicy",
+        "warm"
+      ],
+      "casNumber": "23513-14-6"
+    },
+    {
+      "id": "c_zingiberene",
+      "name": "Alpha-Zingiberene",
+      "flavor_profile": [
+        "ginger",
+        "woody",
+        "spicy",
+        "terpenic"
+      ],
+      "casNumber": "495-60-3"
+    },
+    {
+      "id": "c_camphene",
+      "name": "Camphene",
+      "flavor_profile": [
+        "camphoraceous",
+        "woody",
+        "pine",
+        "herbal"
+      ],
+      "casNumber": "79-92-5"
+    },
+    {
+      "id": "c_anethole",
+      "name": "Trans-Anethole",
+      "flavor_profile": [
+        "anise",
+        "licorice",
+        "sweet",
+        "aromatic"
+      ],
+      "casNumber": "4180-23-8"
+    },
+    {
+      "id": "c_safrole",
+      "name": "Safrole",
+      "flavor_profile": [
+        "sassafras",
+        "warm",
+        "spicy",
+        "woody"
+      ],
+      "casNumber": "94-59-7"
+    },
+    {
+      "id": "c_cuminaldehyde",
+      "name": "Cuminaldehyde",
+      "flavor_profile": [
+        "cumin",
+        "spicy",
+        "green",
+        "herbal"
+      ],
+      "casNumber": "122-03-2"
+    },
+    {
+      "id": "c_fenchone",
+      "name": "Fenchone",
+      "flavor_profile": [
+        "camphoraceous",
+        "sweet",
+        "herbal"
+      ],
+      "casNumber": "1195-79-5"
+    },
+    {
+      "id": "c_safranal",
+      "name": "Safranal",
+      "flavor_profile": [
+        "saffron",
+        "herbal",
+        "sweet",
+        "spicy"
+      ],
+      "casNumber": "116-26-7"
+    },
+    {
+      "id": "c_crocin",
+      "name": "Crocin",
+      "flavor_profile": [
+        "floral",
+        "sweet",
+        "saffron"
+      ],
+      "casNumber": "42553-65-1"
+    },
+    {
+      "id": "c_picrocrocin",
+      "name": "Picrocrocin",
+      "flavor_profile": [
+        "bitter",
+        "saffron",
+        "spicy"
+      ],
+      "casNumber": "138-65-8"
+    },
+    {
+      "id": "c_isophorone",
+      "name": "Alpha-Isophorone",
+      "flavor_profile": [
+        "woody",
+        "sweet",
+        "herbal"
+      ],
+      "casNumber": "78-59-1"
+    },
+    {
+      "id": "c_curcumin",
+      "name": "Curcumin",
+      "flavor_profile": [
+        "earthy",
+        "mustardy",
+        "warm"
+      ],
+      "casNumber": "458-37-7"
+    },
+    {
+      "id": "c_turmerone",
+      "name": "Ar-Turmerone",
+      "flavor_profile": [
+        "turmeric",
+        "woody",
+        "spicy"
+      ],
+      "casNumber": "532-32-1"
+    },
+    {
+      "id": "c_furaneol",
+      "name": "Furaneol (Strawberry Furanone)",
+      "flavor_profile": [
+        "caramel",
+        "strawberry",
+        "sweet",
+        "cotton candy"
+      ],
+      "casNumber": "3658-77-3"
+    },
+    {
+      "id": "c_isoamyl_acetate",
+      "name": "Isoamyl Acetate",
+      "flavor_profile": [
+        "banana",
+        "fruity",
+        "sweet",
+        "pear"
+      ],
+      "casNumber": "123-92-2"
+    },
+    {
+      "id": "c_butyl_acetate",
+      "name": "Butyl Acetate",
+      "flavor_profile": [
+        "fruity",
+        "apple",
+        "banana"
+      ],
+      "casNumber": "123-86-4"
+    },
+    {
+      "id": "c_damascenone",
+      "name": "Beta-Damascenone",
+      "flavor_profile": [
+        "apple",
+        "rose",
+        "honey",
+        "fruity"
+      ],
+      "casNumber": "23696-85-7"
+    },
+    {
+      "id": "c_ethyl_butyrate",
+      "name": "Ethyl Butyrate",
+      "flavor_profile": [
+        "pineapple",
+        "fruity",
+        "juicy",
+        "apple"
+      ],
+      "casNumber": "105-54-4"
+    },
+    {
+      "id": "c_hexanal",
+      "name": "Hexanal",
+      "flavor_profile": [
+        "green",
+        "grassy",
+        "apple",
+        "fresh"
+      ],
+      "casNumber": "66-25-1"
+    },
+    {
+      "id": "c_carene",
+      "name": "Delta-3-Carene",
+      "flavor_profile": [
+        "pine",
+        "sweet",
+        "pungent",
+        "citrus"
+      ],
+      "casNumber": "13466-78-9"
+    },
+    {
+      "id": "c_ocimene",
+      "name": "Beta-Ocimene",
+      "flavor_profile": [
+        "tropical",
+        "herbal",
+        "sweet",
+        "woody"
+      ],
+      "casNumber": "13877-91-3"
+    },
+    {
+      "id": "c_raspberry_ketone",
+      "name": "Raspberry Ketone",
+      "flavor_profile": [
+        "raspberry",
+        "sweet",
+        "berry",
+        "fruity"
+      ],
+      "casNumber": "5471-51-2"
+    },
+    {
+      "id": "c_ionone",
+      "name": "Beta-Ionone",
+      "flavor_profile": [
+        "violet",
+        "berry",
+        "woody",
+        "floral"
+      ],
+      "casNumber": "14901-07-6"
+    },
+    {
+      "id": "c_decalactone",
+      "name": "Gamma-Decalactone",
+      "flavor_profile": [
+        "peach",
+        "creamy",
+        "fruity",
+        "sweet"
+      ],
+      "casNumber": "706-14-9"
+    },
+    {
+      "id": "c_methyl_hexanoate",
+      "name": "Methyl Hexanoate",
+      "flavor_profile": [
+        "pineapple",
+        "fruity",
+        "sweet"
+      ],
+      "casNumber": "106-70-7"
+    },
+    {
+      "id": "c_eucalyptol",
+      "name": "Eucalyptol",
+      "flavor_profile": [
+        "eucalyptus",
+        "fresh",
+        "cool"
+      ],
+      "casNumber": "470-82-6"
+    },
+    {
+      "id": "c_octalactone",
+      "name": "Delta-Octalactone",
+      "flavor_profile": [
+        "coconut",
+        "creamy",
+        "sweet"
+      ],
+      "casNumber": "698-10-2"
+    },
+    {
+      "id": "c_nonalactone",
+      "name": "Gamma-Nonalactone",
+      "flavor_profile": [
+        "coconut",
+        "creamy",
+        "peach"
+      ],
+      "casNumber": "104-61-0"
+    },
+    {
+      "id": "c_ethyl_decadienoate",
+      "name": "Ethyl (E,Z)-2,4-Decadienoate",
+      "flavor_profile": [
+        "pear",
+        "fruity",
+        "sweet",
+        "juicy"
+      ],
+      "casNumber": "3025-30-7"
+    },
+    {
+      "id": "c_nonadienal",
+      "name": "(E,Z)-2,6-Nonadienal",
+      "flavor_profile": [
+        "cucumber",
+        "melon",
+        "green",
+        "fresh"
+      ],
+      "casNumber": "557-48-2"
+    },
+    {
+      "id": "c_nonenal",
+      "name": "Trans-2-Nonenal",
+      "flavor_profile": [
+        "cucumber",
+        "fatty",
+        "orris",
+        "green"
+      ],
+      "casNumber": "18829-56-6"
+    },
+    {
+      "id": "c_mft",
+      "name": "2-Methyl-3-furanthiol",
+      "flavor_profile": [
+        "roasted meat",
+        "savory",
+        "beefy",
+        "brothy"
+      ],
+      "casNumber": "28588-74-1"
+    },
+    {
+      "id": "c_pyrroline",
+      "name": "2-Acetyl-1-pyrroline",
+      "flavor_profile": [
+        "popcorn",
+        "basmati",
+        "crusty bread",
+        "roasted chicken"
+      ],
+      "casNumber": "85213-22-5"
+    },
+    {
+      "id": "c_decadienal",
+      "name": "Trans,trans-2,4-Decadienal",
+      "flavor_profile": [
+        "chicken fat",
+        "deep fried",
+        "savory",
+        "lipids"
+      ],
+      "casNumber": "25152-84-5"
+    },
+    {
+      "id": "c_methyloctanoic",
+      "name": "4-Methyloctanoic Acid",
+      "flavor_profile": [
+        "mutton",
+        "lamb",
+        "goaty",
+        "waxy"
+      ],
+      "casNumber": "54947-74-9"
+    },
+    {
+      "id": "c_skatole",
+      "name": "Skatole (3-Methylindole)",
+      "flavor_profile": [
+        "animalic",
+        "savory",
+        "mutton",
+        "earthy"
+      ],
+      "casNumber": "83-34-1"
+    },
+    {
+      "id": "c_methylbutanal",
+      "name": "3-Methylbutanal",
+      "flavor_profile": [
+        "malty",
+        "cocoa",
+        "savory",
+        "cured ham"
+      ],
+      "casNumber": "590-86-3"
+    },
+    {
+      "id": "c_tma",
+      "name": "Trimethylamine",
+      "flavor_profile": [
+        "marine",
+        "fishy",
+        "seafood",
+        "briny"
+      ],
+      "casNumber": "75-50-3"
+    },
+    {
+      "id": "c_dimethyl_trisulfide",
+      "name": "Dimethyl Trisulfide",
+      "flavor_profile": [
+        "cabbage",
+        "sulfur",
+        "savory",
+        "brassica"
+      ],
+      "casNumber": "3658-80-8"
+    },
+    {
+      "id": "c_acetic_acid",
+      "name": "Acetic Acid",
+      "flavor_profile": [
+        "sour",
+        "vinegar",
+        "pungent"
+      ],
+      "casNumber": "64-19-7"
+    },
+    {
+      "id": "c_vanillin",
+      "name": "Vanillin",
+      "flavor_profile": [
+        "vanilla",
+        "sweet",
+        "creamy",
+        "balsamic"
+      ],
+      "casNumber": "121-33-5"
+    },
+    {
+      "id": "c_guaiacol",
+      "name": "Guaiacol",
+      "flavor_profile": [
+        "smoky",
+        "woody",
+        "roasted",
+        "phenolic"
+      ],
+      "casNumber": "90-05-1"
+    },
+    {
+      "id": "c_anisaldehyde",
+      "name": "p-Anisaldehyde",
+      "flavor_profile": [
+        "sweet",
+        "anise",
+        "vanilla",
+        "hawthorn"
+      ],
+      "casNumber": "123-11-5"
+    },
+    {
+      "id": "c_pyrazines",
+      "name": "2,3,5-Trimethylpyrazine",
+      "flavor_profile": [
+        "nutty",
+        "roasted",
+        "cocoa",
+        "baked"
+      ],
+      "casNumber": "14667-55-1"
+    },
+    {
+      "id": "c_maltol",
+      "name": "Maltol",
+      "flavor_profile": [
+        "caramel",
+        "cotton candy",
+        "baked",
+        "sweet"
+      ],
+      "casNumber": "118-71-8"
+    },
+    {
+      "id": "c_sotolon",
+      "name": "Sotolon",
+      "flavor_profile": [
+        "maple",
+        "fenugreek",
+        "caramelized",
+        "curry"
+      ],
+      "casNumber": "28664-35-9"
+    },
+    {
+      "id": "c_phenylethanol",
+      "name": "2-Phenylethanol",
+      "flavor_profile": [
+        "rose",
+        "honey",
+        "floral",
+        "sweet"
+      ],
+      "casNumber": "60-12-8"
+    },
+    {
+      "id": "c_phenylacetic_acid",
+      "name": "Phenylacetic Acid",
+      "flavor_profile": [
+        "honey",
+        "sweet",
+        "wax",
+        "floral"
+      ],
+      "casNumber": "103-82-2"
+    },
+    {
+      "id": "c_benzaldehyde",
+      "name": "Benzaldehyde",
+      "flavor_profile": [
+        "almond",
+        "marzipan",
+        "cherry",
+        "nutty"
+      ],
+      "casNumber": "100-52-7"
+    },
+    {
+      "id": "c_filbertone",
+      "name": "Filbertone",
+      "flavor_profile": [
+        "hazelnut",
+        "roasted",
+        "nutty",
+        "buttery"
+      ],
+      "casNumber": "81925-81-7"
+    },
+    {
+      "id": "c_pentenal",
+      "name": "Trans-2-Pentenal",
+      "flavor_profile": [
+        "green",
+        "apple",
+        "nutty"
+      ],
+      "casNumber": "1576-87-0"
+    },
+    {
+      "id": "c_pyrrole",
+      "name": "2-Acetylpyrrole",
+      "flavor_profile": [
+        "nutty",
+        "roasted",
+        "bread"
+      ],
+      "casNumber": "1072-83-9"
+    },
+    {
+      "id": "c_furfurylthiol",
+      "name": "2-Furfurylthiol",
+      "flavor_profile": [
+        "coffee",
+        "roasted",
+        "sulfury",
+        "nutty"
+      ],
+      "casNumber": "98-02-2"
+    },
+    {
+      "id": "c_syringol",
+      "name": "Syringol",
+      "flavor_profile": [
+        "smoky",
+        "curing",
+        "hardwood",
+        "savory"
+      ],
+      "casNumber": "91-10-1"
+    },
+    {
+      "id": "c_dimethyl_sulfide",
+      "name": "Dimethyl Sulfide",
+      "flavor_profile": [
+        "cabbage",
+        "sulfur",
+        "vegetal",
+        "seaweed"
+      ],
+      "casNumber": "75-18-3"
+    },
+    {
+      "id": "c_allicin",
+      "name": "Allicin",
+      "flavor_profile": [
+        "garlic",
+        "pungent",
+        "sulfury",
+        "sharp"
+      ],
+      "casNumber": "539-86-6"
+    },
+    {
+      "id": "c_diallyl_disulfide",
+      "name": "Diallyl Disulfide",
+      "flavor_profile": [
+        "garlic",
+        "onion",
+        "savory",
+        "pungent"
+      ],
+      "casNumber": "2179-57-9"
+    },
+    {
+      "id": "c_allyl_mercaptan",
+      "name": "Allyl Mercaptan",
+      "flavor_profile": [
+        "garlic",
+        "sulfur",
+        "intense",
+        "savory"
+      ],
+      "casNumber": "870-23-5"
+    },
+    {
+      "id": "c_methional",
+      "name": "Methional",
+      "flavor_profile": [
+        "baked potato",
+        "savory",
+        "soup",
+        "meaty"
+      ],
+      "casNumber": "3268-49-3"
+    },
+    {
+      "id": "c_dimethyl_disulfide",
+      "name": "Dimethyl Disulfide",
+      "flavor_profile": [
+        "cabbage",
+        "sulfury",
+        "onion",
+        "savory"
+      ],
+      "casNumber": "624-92-0"
+    },
+    {
+      "id": "c_thiophenes",
+      "name": "2-Methylthiophene",
+      "flavor_profile": [
+        "allium",
+        "roasted",
+        "sulfur"
+      ],
+      "casNumber": "554-14-3"
+    },
+    {
+      "id": "c_isobutylthiazole",
+      "name": "2-Isobutylthiazole",
+      "flavor_profile": [
+        "tomato leaf",
+        "green",
+        "savory",
+        "fresh"
+      ],
+      "casNumber": "18640-74-9"
+    },
+    {
+      "id": "c_isobutyl_methoxypyrazine",
+      "name": "2-Isobutyl-3-methoxypyrazine",
+      "flavor_profile": [
+        "bell pepper",
+        "green",
+        "earthy"
+      ],
+      "casNumber": "24683-00-9"
+    },
+    {
+      "id": "c_capsaicin",
+      "name": "Capsaicin",
+      "flavor_profile": [
+        "pungent",
+        "spicy",
+        "hot",
+        "peppery"
+      ],
+      "casNumber": "404-86-4"
+    },
+    {
+      "id": "c_sedanolide",
+      "name": "Sedanolide",
+      "flavor_profile": [
+        "celery",
+        "herbal",
+        "savory",
+        "warm"
+      ],
+      "casNumber": "6415-08-3"
+    },
+    {
+      "id": "c_butyric_acid",
+      "name": "Butyric Acid",
+      "flavor_profile": [
+        "cheesy",
+        "sour",
+        "pungent",
+        "butter"
+      ],
+      "casNumber": "107-92-6"
+    },
+    {
+      "id": "c_hexanoic_acid",
+      "name": "Hexanoic Acid",
+      "flavor_profile": [
+        "goaty",
+        "pungent",
+        "cheesy",
+        "fatty"
+      ],
+      "casNumber": "142-62-1"
+    },
+    {
+      "id": "c_diacetyl",
+      "name": "Diacetyl (2,3-Butanedione)",
+      "flavor_profile": [
+        "butter",
+        "creamy",
+        "rich",
+        "sweet"
+      ],
+      "casNumber": "431-03-8"
+    },
+    {
+      "id": "c_acetoin",
+      "name": "Acetoin",
+      "flavor_profile": [
+        "butter",
+        "milky",
+        "creamy",
+        "smooth"
+      ],
+      "casNumber": "513-86-0"
+    },
+    {
+      "id": "c_heptanone",
+      "name": "2-Heptanone",
+      "flavor_profile": [
+        "blue cheese",
+        "fruity",
+        "spicy"
+      ],
+      "casNumber": "110-43-0"
+    },
+    {
+      "id": "c_nonanone",
+      "name": "2-Nonanone",
+      "flavor_profile": [
+        "cheesy",
+        "hot milk",
+        "fruity"
+      ],
+      "casNumber": "821-55-6"
+    },
+    {
+      "id": "c_octen_3_ol",
+      "name": "1-Octen-3-ol",
+      "flavor_profile": [
+        "mushroom",
+        "earthy",
+        "fungal",
+        "green"
+      ],
+      "casNumber": "3391-86-4"
+    },
+    {
+      "id": "c_octenol",
+      "name": "1-Octen-3-ol",
+      "flavor_profile": [
+        "mushroom",
+        "earthy",
+        "fungal",
+        "green"
+      ],
+      "casNumber": "3391-86-4"
+    },
+    {
+      "id": "c_geosmin",
+      "name": "Geosmin",
+      "flavor_profile": [
+        "earth",
+        "soil",
+        "beet",
+        "damp"
+      ],
+      "casNumber": "19700-21-1"
+    },
+    {
+      "id": "c_bis_methylthiomethane",
+      "name": "Bis(methylthio)methane",
+      "flavor_profile": [
+        "truffle",
+        "sulfur",
+        "garlic",
+        "earthy"
+      ],
+      "casNumber": "1618-26-4"
+    },
+    {
+      "id": "c_citronellol",
+      "name": "Citronellol",
+      "flavor_profile": [
+        "rose",
+        "citrus",
+        "floral",
+        "sweet"
+      ],
+      "casNumber": "106-22-9"
+    },
+    {
+      "id": "c_benzyl_acetate",
+      "name": "Benzyl Acetate",
+      "flavor_profile": [
+        "jasmine",
+        "fruity",
+        "floral",
+        "sweet"
+      ],
+      "casNumber": "140-11-4"
+    },
+    {
+      "id": "c_indole",
+      "name": "Indole",
+      "flavor_profile": [
+        "floral",
+        "jasmine",
+        "exotic",
+        "animalic"
+      ],
+      "casNumber": "120-72-9"
+    },
+    {
+      "id": "c_hemf",
+      "name": "4-Hydroxy-2,5-dimethyl-3(2H)-furanone",
+      "flavor_profile": [
+        "soy sauce",
+        "caramel",
+        "sweet",
+        "roasted"
+      ],
+      "casNumber": "3658-77-3"
+    },
+    {
+      "id": "c_isovaleraldehyde",
+      "name": "Isovaleraldehyde",
+      "flavor_profile": [
+        "malty",
+        "cocoa",
+        "fermented",
+        "savory"
+      ],
+      "casNumber": "590-86-3"
+    },
+    {
+      "id": "c_isoamyl_alcohol",
+      "name": "Isoamyl Alcohol",
+      "flavor_profile": [
+        "winey",
+        "fruity",
+        "fermented"
+      ],
+      "casNumber": "123-51-3"
+    },
+    {
+      "id": "c_ethyl_hexanoate",
+      "name": "Ethyl Hexanoate",
+      "flavor_profile": [
+        "fruity",
+        "winey",
+        "apple",
+        "banana"
+      ],
+      "casNumber": "123-66-0"
+    }
+  ]
+}

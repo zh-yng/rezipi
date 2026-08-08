@@ -1,0 +1,6 @@
+{
+  "name": "REZIPI — Molecular Recipe Design Engine",
+  "description": "Visual recipe creation, flavor chemistry analysis, and pure molecular ingredient substitution engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
