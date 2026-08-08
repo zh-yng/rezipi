@@ -10,7 +10,41 @@
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4%EF%B8%8F%20and%20%F0%9F%A7%AA-orange)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
+**A client-side data-science web app** that applies **set-similarity algorithms** (Jaccard index) over a **121-compound / 131-ingredient food-chemistry dataset** to recommend ingredient substitutions in real time.
+
+Built with **React 19**, **TypeScript**, **Vite 6**, and **Tailwind CSS v4**, with **IndexedDB** (via **Dexie.js**) for persistent, offline-capable local storage — no backend server, database, or network round-trip required to compute a result.
+
+`React` · `TypeScript` · `Vite` · `Tailwind CSS` · `IndexedDB` · `Dexie.js` · `Framer Motion` · `Data Structures & Algorithms` · `Jaccard Similarity` · `Set Theory` · `Client-Side Data Processing` · `Component-Driven Architecture` · `Custom Hooks` · `Responsive UI/UX Design`
+
 </div>
+
+<table>
+<tr>
+<td width="33%"><img src="screenshots/recipe-input.png" alt="Recipe Input page"/></td>
+<td width="33%"><img src="screenshots/recipe-studio.png" alt="Recipe Studio page"/></td>
+<td width="33%"><img src="screenshots/substitution-engine.png" alt="Chemical Substitution Engine modal"/></td>
+</tr>
+<tr>
+<td align="center"><sub>Recipe Input</sub></td>
+<td align="center"><sub>Recipe Studio</sub></td>
+<td align="center"><sub>Substitution Engine</sub></td>
+</tr>
+</table>
+
+---
+
+## 🎯 About This Project
+
+REZIPI is a case study in applying **computer science fundamentals** — set theory, similarity scoring, and clustering — to a real-world domain (food chemistry) through a polished, production-quality **frontend engineering** build. It was built to demonstrate:
+
+- **Algorithm design**: implementing Jaccard similarity and pair-wise synergy scoring from scratch (no ML library black box) in `src/lib/math/`
+- **Data modeling**: normalizing and querying a structured 131-ingredient / 121-compound dataset via a typed data-access layer
+- **Client-side persistence**: using IndexedDB (Dexie.js) as a local, serverless database for recipes and variants
+- **Modern React architecture**: functional components, custom hooks, controlled state, and animated transitions (Framer Motion) across a multi-view SPA
+- **Type safety**: a fully typed domain model in TypeScript, from raw dataset to UI props
+- **UI/UX craft**: a custom design system built on Tailwind CSS v4 with reusable, accessible components (dropdowns, modals, cards)
+
+
 
 ---
 
@@ -28,6 +62,7 @@
 
 ## 📚 Table of Contents
 
+- [About This Project](#-about-this-project)
 - [Features](#-features)
 - [How It Works](#-how-it-works)
 - [Getting Started](#-getting-started)
@@ -128,14 +163,27 @@ The dataset is used under the **Creative Commons Attribution-NonCommercial-Share
 
 ## 🛠️ Tech Stack
 
-> 📝 *Update this section with your actual stack — framework, language, database, and the source of your volatile compound data.*
+| Layer | Technology | Purpose |
+|---|---|---|
+| **Framework** | [React 19](https://react.dev/) | Component-based SPA with three primary views (Recipe Input, Recipe Studio, Local Dashboard) |
+| **Language** | [TypeScript 5](https://www.typescriptlang.org/) | End-to-end type safety across the domain model, math layer, and UI |
+| **Build Tool** | [Vite 6](https://vitejs.dev/) | Dev server, HMR, and production bundling |
+| **Styling** | [Tailwind CSS v4](https://tailwindcss.com/) + `tailwind-merge` + `clsx` | Utility-first design system with a custom CSS-variable theme |
+| **Animation** | [Motion (Framer Motion)](https://motion.dev/) | Page transitions and micro-interactions |
+| **Local Persistence** | [Dexie.js](https://dexie.org/) (IndexedDB wrapper) + `dexie-react-hooks` | Client-side, offline-capable storage for recipes and saved variants — no backend database |
+| **Iconography** | [Lucide React](https://lucide.dev/) | Icon set |
+| **UI Extras** | `canvas-confetti` | Celebratory UI feedback |
+| **Tooling** | `tsc` (type-checking), ESLint-adjacent tsconfig, npm | Static analysis and lint step (`npm run lint`) |
 
-| Layer | Tool |
-|---|---|
-| Frontend | — |
-| Backend | — |
-| Data | — |
-| Deployment | — |
+**Core algorithms** (implemented from scratch in `src/lib/math/`):
+- **`similarity.ts`** — Jaccard similarity coefficient `J(A,B) = |A ∩ B| / |A ∪ B|` between ingredient compound sets
+- **`synergy.ts`** — pair-wise aggregate synergy scoring across a full recipe's ingredient list
+- **`substitution.ts`** — ranks candidate substitutes by molecular overlap, independent of culinary category
+- **`clustering.ts`** — ensures each flavor "lane" has a minimum viable set of ingredient options, backfilling by category proximity
+
+**Data layer** (`src/lib/flavordb/`, `src/data/flavordb.json`): a locally-bundled dataset of **131 ingredients** and **121 volatile compounds**, sourced from FlavorDB (see [Data Attribution](#-data-attribution)) and queried through a typed access layer (`src/types/flavordb.ts`).
+
+**Architecture**: 100% client-side — all similarity scoring, synergy calculation, and substitution ranking runs in-browser with no API calls or backend server required at runtime.
 
 ---
 

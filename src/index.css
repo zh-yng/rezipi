@@ -32,16 +32,17 @@
   width: 6px;
   height: 6px;
 }
+
 .custom-scrollbar::-webkit-scrollbar-track {
   background: var(--color-bg-subtle);
   border-radius: 9999px;
 }
+
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background: #D8C9B4;
   border-radius: 9999px;
 }
+
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: var(--color-primary);
 }
-
-
