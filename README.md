@@ -10,7 +10,7 @@
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4%EF%B8%8F%20and%20%F0%9F%A7%AA-orange)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-[zh-yng.github.io/rezipi/](zh-yng.github.io/rezipi/)
+[https://zh-yng.github.io/rezipi/](https://zh-yng.github.io/rezipi/)
 
 **A client-side data-science web app** that applies **set-similarity algorithms** (Jaccard index) over a **121-compound / 131-ingredient food-chemistry dataset** to recommend ingredient substitutions in real time.
 
