@@ -33,21 +33,6 @@ Built with **React 19**, **TypeScript**, **Vite 6**, and **Tailwind CSS v4**, wi
 
 ---
 
-## 🎯 About This Project
-
-REZIPI is a case study in applying **computer science fundamentals** — set theory, similarity scoring, and clustering — to a real-world domain (food chemistry) through a polished, production-quality **frontend engineering** build. It was built to demonstrate:
-
-- **Algorithm design**: implementing Jaccard similarity and pair-wise synergy scoring from scratch (no ML library black box) in `src/lib/math/`
-- **Data modeling**: normalizing and querying a structured 131-ingredient / 121-compound dataset via a typed data-access layer
-- **Client-side persistence**: using IndexedDB (Dexie.js) as a local, serverless database for recipes and variants
-- **Modern React architecture**: functional components, custom hooks, controlled state, and animated transitions (Framer Motion) across a multi-view SPA
-- **Type safety**: a fully typed domain model in TypeScript, from raw dataset to UI props
-- **UI/UX craft**: a custom design system built on Tailwind CSS v4 with reusable, accessible components (dropdowns, modals, cards)
-
-
-
----
-
 ## 🤔 Sound Familiar?
 
 - 🛒 Can't find an ingredient for your recipe?
@@ -182,8 +167,6 @@ The dataset is used under the **Creative Commons Attribution-NonCommercial-Share
 - **`clustering.ts`** — ensures each flavor "lane" has a minimum viable set of ingredient options, backfilling by category proximity
 
 **Data layer** (`src/lib/flavordb/`, `src/data/flavordb.json`): a locally-bundled dataset of **131 ingredients** and **121 volatile compounds**, sourced from FlavorDB (see [Data Attribution](#-data-attribution)) and queried through a typed access layer (`src/types/flavordb.ts`).
-
-**Architecture**: 100% client-side — all similarity scoring, synergy calculation, and substitution ranking runs in-browser with no API calls or backend server required at runtime.
 
 ---
 
