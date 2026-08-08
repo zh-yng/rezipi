@@ -12,7 +12,7 @@
 
 **A client-side data-science web app** that applies **set-similarity algorithms** (Jaccard index) over a **121-compound / 131-ingredient food-chemistry dataset** to recommend ingredient substitutions in real time.
 
-Built with **React 19**, **TypeScript**, **Vite 6**, and **Tailwind CSS v4**, with **IndexedDB** (via **Dexie.js**) for persistent, offline-capable local storage — no backend server, database, or network round-trip required to compute a result.
+Built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**, with **IndexedDB** (via **Dexie.js**) for persistent, offline-capable local storage — no backend server, database, or network round-trip required to compute a result.
 
 `React` · `TypeScript` · `Vite` · `Tailwind CSS` · `IndexedDB` · `Dexie.js` · `Framer Motion` · `Data Structures & Algorithms` · `Jaccard Similarity` · `Set Theory` · `Client-Side Data Processing` · `Component-Driven Architecture` · `Custom Hooks` · `Responsive UI/UX Design`
 
@@ -136,10 +136,10 @@ The dataset is used under the **Creative Commons Attribution-NonCommercial-Share
 
 | Layer | Technology | Purpose |
 |---|---|---|
-| **Framework** | [React 19](https://react.dev/) | Component-based SPA with three primary views (Recipe Input, Recipe Studio, Local Dashboard) |
-| **Language** | [TypeScript 5](https://www.typescriptlang.org/) | End-to-end type safety across the domain model, math layer, and UI |
-| **Build Tool** | [Vite 6](https://vitejs.dev/) | Dev server, HMR, and production bundling |
-| **Styling** | [Tailwind CSS v4](https://tailwindcss.com/) + `tailwind-merge` + `clsx` | Utility-first design system with a custom CSS-variable theme |
+| **Framework** | [React](https://react.dev/) | Component-based SPA with three primary views (Recipe Input, Recipe Studio, Local Dashboard) |
+| **Language** | [TypeScript](https://www.typescriptlang.org/) | End-to-end type safety across the domain model, math layer, and UI |
+| **Build Tool** | [Vite](https://vitejs.dev/) | Dev server, HMR, and production bundling |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) + `tailwind-merge` + `clsx` | Utility-first design system with a custom CSS-variable theme |
 | **Animation** | [Motion (Framer Motion)](https://motion.dev/) | Page transitions and micro-interactions |
 | **Local Persistence** | [Dexie.js](https://dexie.org/) (IndexedDB wrapper) + `dexie-react-hooks` | Client-side, offline-capable storage for recipes and saved variants — no backend database |
 | **Iconography** | [Lucide React](https://lucide.dev/) | Icon set |
