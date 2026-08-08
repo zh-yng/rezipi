@@ -20,12 +20,12 @@ Built with **React 19**, **TypeScript**, **Vite 6**, and **Tailwind CSS v4**, wi
 
 <table>
 <tr>
-<td width="33%"><img src="screenshots/recipe-input.png" alt="Recipe Input page"/></td>
-<td width="33%"><img src="screenshots/recipe-studio.png" alt="Recipe Studio page"/></td>
-<td width="33%"><img src="screenshots/substitution-engine.png" alt="Chemical Substitution Engine modal"/></td>
+<!-- <td width="33%"><img src="screenshots/recipe-input.png" alt="Recipe Input page"/></td> -->
+<td width="50%"><img src="screenshots/recipe-studio.png" alt="Recipe Studio page"/></td>
+<td width="50%"><img src="screenshots/substitution-engine.png" alt="Chemical Substitution Engine modal"/></td>
 </tr>
 <tr>
-<td align="center"><sub>Recipe Input</sub></td>
+<!-- <td align="center"><sub>Recipe Input</sub></td> -->
 <td align="center"><sub>Recipe Studio</sub></td>
 <td align="center"><sub>Substitution Engine</sub></td>
 </tr>
