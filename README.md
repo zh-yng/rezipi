@@ -31,8 +31,6 @@ Built with **React 19**, **TypeScript**, **Vite 6**, and **Tailwind CSS v4**, wi
 </tr>
 </table>
 
----
-
 ## 🤔 Sound Familiar?
 
 - 🛒 Can't find an ingredient for your recipe?
@@ -43,8 +41,6 @@ Built with **React 19**, **TypeScript**, **Vite 6**, and **Tailwind CSS v4**, wi
 
 > 💡 **Put in your base recipe, and discover wild variations.** REZIPI examines the molecular overlap, finds ingredient categories, and generates wildcard pairings for the Recipe Studio.
 
----
-
 ## 📚 Table of Contents
 
 - [About This Project](#-about-this-project)
@@ -54,8 +50,6 @@ Built with **React 19**, **TypeScript**, **Vite 6**, and **Tailwind CSS v4**, wi
 - [Data Attribution](#-data-attribution)
 - [Tech Stack](#%EF%B8%8F-tech-stack)
 - [License](#-license)
-
----
 
 ## ✨ Features
 
@@ -112,8 +106,6 @@ Your personal cookbook of chemistry.
 </tr>
 </table>
 
----
-
 ## 🧠 How It Works
 
 ```
@@ -123,8 +115,6 @@ Your personal cookbook of chemistry.
 REZIPI models each ingredient as a set of **volatile aromatic compounds** (e.g. limonene, linalool, myrcene, citral). When you ask for a substitute, it computes a similarity score — like a **Jaccard index** — between the target ingredient's compound set and every candidate in its database.
 
 The result: a ranked list of substitutes based purely on chemistry — which is exactly why unconventional matches (citrus standing in for an herb, a spice standing in for citrus) can outrank the "obvious" culinary swap. 🍋 ↔️ 🌿
-
----
 
 ## 🚀 Getting Started
 
@@ -136,15 +126,11 @@ The result: a ranked list of substitutes based purely on chemistry — which is 
 | 4️⃣ | Click **Substitute** on any card to open the Chemical Substitution Engine and find your match |
 | 5️⃣ | **Save** your variant, then find it anytime in the **Local Dashboard** |
 
----
-
 ## 📊 Data Attribution
 
 This project uses data from **[FlavorDB](https://cosylab.iiitd.edu.in/flavordb2/)**, developed by the Computational Biology Group at **IIIT-Delhi**.
 
 The dataset is used under the **Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)** license.
-
----
 
 ## 🛠️ Tech Stack
 
@@ -168,15 +154,11 @@ The dataset is used under the **Creative Commons Attribution-NonCommercial-Share
 
 **Data layer** (`src/lib/flavordb/`, `src/data/flavordb.json`): a locally-bundled dataset of **131 ingredients** and **121 volatile compounds**, sourced from FlavorDB (see [Data Attribution](#-data-attribution)) and queried through a typed access layer (`src/types/flavordb.ts`).
 
----
-
 ## 📄 License
 
 The REZIPI codebase is licensed under the **[MIT License](LICENSE)**.
 
 > ⚠️ Note: The MIT license applies to the REZIPI project code only. Flavor/compound data sourced from FlavorDB remains subject to the **CC BY-NC-SA 3.0** license described above.
-
----
 
 <div align="center">
 
