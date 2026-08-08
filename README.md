@@ -4,7 +4,7 @@
 
 ### Molecular Recipe Design & Chemical Substitution
 
-*Cook with chemistry, not just intuition.*
+*Cook with chemistry, not just intuition!*
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4%EF%B8%8F%20and%20%F0%9F%A7%AA-orange)
